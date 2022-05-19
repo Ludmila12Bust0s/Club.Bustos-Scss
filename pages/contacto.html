@@ -12,11 +12,11 @@
 </head>
 
 <body>
+<section class="container">
     <!--HEADER-->
     <header>
         <div class="px-4 py-5 my-5 text-center">
             <img class="d-block mx-auto mb-4" src="../imagenes/logo club.png" alt="" width="500" height="110">
-            <h1 class="display-5 fw-bold"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CLUB SOL Y LAGO</font></font></h1>   
         </div>
     <nav class="navbar sticky-top navbar-expand-lg  navbar-light"  style="background-color: #688ca7;">
         <a class="navbar-brand" href="../index.html">
@@ -32,37 +32,40 @@
     <!--MAIN-->
 <main id="contacto">
     <div id="item1">
-    <form action="https://formspree.io/f/xoqrkpvz" method="POST">
+    <form action="https://formspree.io/f/xoqrkpvz" method="POST" class="mt-5">
     <fieldset>
-    <legend id="contactanos"> 
-        Contactanos
-    </legend>
+    <legend id="contactanos"> Contactanos </legend>
+    <div class="mt-3">  
         <label for="nombre" class="infoACompletar"> Nombre</label>
         <input type="text" name="nombre" id="nombre">  <br/>
-    
+    </div>
+    <div class="mt-3">
         <label for="apellido" class="infoACompletar"> Apellido</label>
         <input type="text" name="apellido" id="apellido"> <br/>
-    
+    </div>
+    <div class="mt-3">
         <label for="numero de telefono" class="infoACompletar">Número de telefono</label>
         <input type="text" name="numero de telefono" id="numero de telefono"> <br/>
-    
+    </div>
+    <div class="mt-3">
         <label for="e-mail" class="infoACompletar"> E-mail</label>
         <input type="text" name="e-mail" id="e-mail"> <br/>
-    
+    </div>
+    <div class="mt-3">
         <label for="actividades" class="infoACompletar">Actividades a elegir</label>
-            <select name="actividades" class="form-select" id="floatingSelect" aria-label="Floating label select example">
-                <option value="actividad 1">Natación niños</option>
-                <option value="actividad 2">natación jovenes</option>
-                <option value="actividad 3">natación adultos</option>
-                <option value="actividad 4">aquagym</option>
-                <option value="actividad 5">aquacross</option>
-                <option value="actividad 6">matronatación</option>
-                <option value="actividad 7">practica libre</option>
-                <option value="actividad 8">rehabilitación</option>
-                <option value="actividad 9">natacion adaptada</option>
-                <option value="actividad 10">actividades al aire libre</option>
-            </select>
-<br>
+        <select name="actividades" class="form-select" id="floatingSelect" aria-label="Floating label select example">
+            <option value="actividad 1">Natación niños</option>
+            <option value="actividad 2">natación jovenes</option>
+            <option value="actividad 3">natación adultos</option>
+            <option value="actividad 4">aquagym</option>
+            <option value="actividad 5">aquacross</option>
+            <option value="actividad 6">matronatación</option>
+            <option value="actividad 7">practica libre</option>
+            <option value="actividad 8">rehabilitación</option>
+            <option value="actividad 9">natacion adaptada</option>
+            <option value="actividad 10">actividades al aire libre</option>
+        </select>
+    </div>
     <input type="submit" value="Enviar" class="bottom">
     </fieldset>
     </form>
@@ -86,5 +89,6 @@
         <li class="nav-item"><a href="#" class="nav-link px-2 text-muted"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"></font></font></a><img src="../imagenes/logoinsta.jpg" alt="Logo Insta" width="30px"></li>
     </ul>
 </footer>
+</section>
 </body>
 </html>
