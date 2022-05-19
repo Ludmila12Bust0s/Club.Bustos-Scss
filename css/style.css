@@ -1,75 +1,42 @@
-*{
-    box-sizing: border-box;
-}
 h1{
    font-size: 3REM;
    font-family: 'Bebas Neue', cursive;
     font-weight: 600;
     color:rgb(13, 13, 17);
-    background: url("../imagenes/fondopile2.jpg");
     background-repeat: no-repeat;
     text-align: center; 
-}
-#logo{
-    text-align: center;
-    align-items: center;
-    width: 100%;
-}
-#barra {
-    list-style: none;
-    position: sticky;
-    top: 0;
-    display: flex;
-    align-items: initial;
-    background-color: #F5F5F5;
-}
-li {
-  padding: 0px;
-  margin: 10px;
-  width: 100px;
-  display: inline-block;
-  font-size: 18px;
-}
-.menu {
-    color:rgb(0, 0, 0);
-    text-decoration: none;
-    position: sticky;
-}
-.menu:hover{
-    text-decoration: underline;
-    color:rgb(26, 26, 194);
 }
 h2 {
     font-size: 2REM;
     font-family: 'Nunito', sans-serif;
     color:rgb(68, 68, 177);
-    text-align: center;
     border: double;
     border-color:black;
+    text-align: center;
+}
+a {
+  color: var(--bs-dark)
+}
+a:hover {
+  text-decoration: underline;
+  color:rgb(26, 26, 194);
 }
 .texto {
     font-family: 'Nunito', sans-serif;
     font-weight: 500;
     color:rgb(0, 0, 0);
-    display: flex;
-    text-align: center;
-    width:fit-content;
-    padding: 5%;
     border: dotted;
     border-width: 1px; 
     border-color: rgb(21, 109, 150);
     display: inline-block;
     background-color: aliceblue;
-    margin-top: -10px;
-    margin-right: 40px;
-    margin-bottom: 30px;
-    margin-left: 40px;
 }
 #textoPresentacion p span{
     color:rgb(0, 26, 255);
     font-weight: 700;
     padding: 10px;
 }
+/*
 .profe  {
   display: grid;
   grid-template-columns: 650px 650px;
@@ -150,7 +117,9 @@ footer .footer{
     display: flex;
     justify-content: end;
 }
+*/
 /*actividades grids*/
+/*
 .container {
   display: grid;
   grid-auto-columns: 1fr; 
@@ -353,7 +322,9 @@ footer .footer{
 .footer { 
   grid-area: footer; 
 }
+*/
 /*gridsII*/
+/*
 @media (max-width: 768px) {
   .main_container {
     display: grid; 
@@ -372,7 +343,9 @@ footer .footer{
     grid-area: main_container; 
   }
 }
+*/
 /*index grids*/
+/*
 .container1 {  
   display: grid;
   grid-template-columns: 0.3fr 10fr 0.3fr;
