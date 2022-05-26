@@ -2,50 +2,46 @@ body {
   background-color: #CCF3EE; }
   body h2 {
     font-size: 2REM;
-    font-family: 'Nunito', sans-serif;
+    font-family: "Nunito", sans-serif;
     color: #4444b1; }
   body .texto {
-    font-family: 'Nunito', sans-serif;
+    font-family: "Nunito", sans-serif;
     font-weight: 500;
     background-color: aliceblue;
     color: black; }
   body .descripcion {
-    font-family: 'Nunito', sans-serif;
+    font-family: "Nunito", sans-serif;
     font-weight: 500; }
   body h3 {
-    font-family: 'Nunito', sans-serif;
+    font-family: "Nunito", sans-serif;
     font-weight: 600; }
   body #actividadesEspeciales {
-    font-family: 'Nunito', sans-serif;
+    font-family: "Nunito", sans-serif;
     font-weight: 600;
     color: black; }
   body #contactanos {
-    font-family: 'Nunito', sans-serif;
+    font-family: "Nunito", sans-serif;
     font-weight: 600;
     background-color: aliceblue;
     color: black; }
   body .infoACompletar {
-    font-family: 'Nunito', sans-serif;
+    font-family: "Nunito", sans-serif;
     font-weight: 600;
     color: black; }
   body .bottom {
-    font-family: 'Nunito', sans-serif;
+    font-family: "Nunito", sans-serif;
     font-weight: 600; }
-
-footer {
-  font-family: 'Nunito', sans-serif;
-  font-weight: 500; }
-
-h2 {
-  border: double;
-  border-color: black;
-  text-align: center; }
 
 a {
   color: var(--bs-dark); }
 
 a:hover {
   text-decoration: underline; }
+
+h2 {
+  border: double;
+  border-color: black;
+  text-align: center; }
 
 .texto {
   border: dotted;
@@ -59,30 +55,6 @@ a:hover {
 
 .video {
   text-align: center; }
-
-.tracking-in-contract {
-  -webkit-animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.61, 0.355, 1) both;
-  animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.61, 0.355, 1) both; }
-
-@-webkit-keyframes tracking-in-contract {
-  0% {
-    letter-spacing: 1em;
-    opacity: 0; }
-  40% {
-    opacity: 0.6; }
-  100% {
-    letter-spacing: normal;
-    opacity: 1; } }
-
-@keyframes tracking-in-contract {
-  0% {
-    letter-spacing: 1em;
-    opacity: 0; }
-  40% {
-    opacity: 0.6; }
-  100% {
-    letter-spacing: normal;
-    opacity: 1; } }
 
 h3 {
   text-align: center;
@@ -101,7 +73,7 @@ h3:hover {
   filter: blur(0px); }
 
 #actividadesEspeciales {
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 600;
   color: black;
   text-align: center;
@@ -140,3 +112,31 @@ input {
 
 input[type="text"]:focus {
   background-color: #8181fd; }
+
+.tracking-in-contract {
+  -webkit-animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.61, 0.355, 1) both; }
+
+@-webkit-keyframes tracking-in-contract {
+  0% {
+    letter-spacing: 1em;
+    opacity: 0; }
+  40% {
+    opacity: 0.6; }
+  100% {
+    letter-spacing: normal;
+    opacity: 1; } }
+
+@keyframes tracking-in-contract {
+  0% {
+    letter-spacing: 1em;
+    opacity: 0; }
+  40% {
+    opacity: 0.6; }
+  100% {
+    letter-spacing: normal;
+    opacity: 1; } }
+
+footer {
+  font-family: "Nunito", sans-serif;
+  font-weight: 500; }
