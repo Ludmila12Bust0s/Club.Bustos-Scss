@@ -1,159 +1,142 @@
-body{
-  background-color: #CCF3EE;
-}
-h1{
-   font-size: 3REM;
-   font-family: 'Bebas Neue', cursive;
-    font-weight: 600;
-    color:rgb(13, 13, 17);
-    background-repeat: no-repeat;
-    text-align: center; 
-}
-h2 {
+body {
+  background-color: #CCF3EE; }
+  body h2 {
     font-size: 2REM;
     font-family: 'Nunito', sans-serif;
-    color:rgb(68, 68, 177);
-    border: double;
-    border-color:black;
-    text-align: center;
-}
-a {
-  color: var(--bs-dark)
-}
-a:hover {
-  text-decoration: underline;
-}
-.texto {
+    color: #4444b1; }
+  body .texto {
     font-family: 'Nunito', sans-serif;
     font-weight: 500;
-    color:rgb(0, 0, 0);
-    border: dotted;
-    border-width: 1px; 
-    border-color: rgb(21, 109, 150);
-    display: inline-block;
     background-color: aliceblue;
-    transition: transform .6s;
-}
-.texto:hover{
-  transform: scale(1.1);
-}
-#textoPresentacion p span{
-    color:rgb(0, 26, 255);
-    font-weight: 700;
-    padding: 10px;
-}
-.video{
-  text-align: center;
-}
-.descripcion{
-   font-family: 'Nunito', sans-serif;
-   font-weight: 500;
-   color:black;
-}
-.tracking-in-contract {
-	-webkit-animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-	        animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-}
+    color: black; }
+  body .descripcion {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500; }
+  body h3 {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600; }
+  body #actividadesEspeciales {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    color: black; }
+  body #contactanos {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    background-color: aliceblue;
+    color: black; }
+  body .infoACompletar {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    color: black; }
+  body .bottom {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600; }
 
- @-webkit-keyframes tracking-in-contract {
+footer {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 500; }
+
+h2 {
+  border: double;
+  border-color: black;
+  text-align: center; }
+
+a {
+  color: var(--bs-dark); }
+
+a:hover {
+  text-decoration: underline; }
+
+.texto {
+  border: dotted;
+  border-width: 1px;
+  border-color: #156d96;
+  display: inline-block;
+  transition: transform .6s; }
+
+.texto:hover {
+  transform: scale(1.1); }
+
+.video {
+  text-align: center; }
+
+.tracking-in-contract {
+  -webkit-animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.61, 0.355, 1) both; }
+
+@-webkit-keyframes tracking-in-contract {
   0% {
     letter-spacing: 1em;
-    opacity: 0;
-  }
+    opacity: 0; }
   40% {
-    opacity: 0.6;
-  }
+    opacity: 0.6; }
   100% {
     letter-spacing: normal;
-    opacity: 1;
-  }
-}
+    opacity: 1; } }
+
 @keyframes tracking-in-contract {
   0% {
     letter-spacing: 1em;
-    opacity: 0;
-  }
+    opacity: 0; }
   40% {
-    opacity: 0.6;
-  }
+    opacity: 0.6; }
   100% {
     letter-spacing: normal;
-    opacity: 1;
-  }
-}
+    opacity: 1; } }
 
 h3 {
-    font-family: 'Nunito', sans-serif;
-    font-weight: 600;
-    color:black;
-    text-align: center;
-    padding: 10px;
-    border: 40px;
-    transition: transform .5s;
-}
-h3:hover{
-  transform: scale(1.1);
-}
-.imagenActividades{
+  text-align: center;
+  padding: 10px;
+  border: 40px;
+  transition: transform .5s; }
+
+h3:hover {
+  transform: scale(1.1); }
+
+.imagenActividades {
   filter: blur(3px);
-  transition: filter .2s;
-}
-.imagenActividades:hover{
-  filter: blur(0px);
-}
+  transition: filter .2s; }
+
+.imagenActividades:hover {
+  filter: blur(0px); }
+
 #actividadesEspeciales {
   font-family: 'Nunito', sans-serif;
   font-weight: 600;
-  color:black;
+  color: black;
   text-align: center;
   border: 20px;
   padding: 20px;
-  border: 10px;
-}
+  border: 10px; }
+
 #calendar {
-  text-align: center;
-}
-#contacto{
+  text-align: center; }
+
+#contacto {
   display: grid;
-  grid-template-columns: 300px 0px;
-}
+  grid-template-columns: 300px 0px; }
+
 #contactanos {
-  font-family: 'Nunito', sans-serif;
-  font-weight: 600;
-  color:black;
   text-align: justify;
   display: inline-block;
-  background-color: aliceblue;
   margin-top: -20px;
   margin-right: 40px;
   margin-bottom: 30px;
-  margin-left: 40px;
-  
-}
-.infoACompletar{
-  font-family: 'Nunito', sans-serif;
-  font-weight: 600;
+  margin-left: 40px; }
+
+.infoACompletar {
   display: inline-block;
   margin-top: -20px;
   margin-right: 40px;
   margin-bottom: 30px;
-  margin-left: 40px;
-}
-input[type="text"]:hover{
-  background-color: rgb(71, 201, 201);
-}
-input{
-  background-color: rgb(214, 214, 214);
-  transition: all 0.5;
-}
-input[type="text"]:focus{
-  background-color: rgb(129, 129, 253);
-}
-.bottom{
-  font-family: 'Nunito', sans-serif;
-  font-weight: 600;
-}
-footer{
-    font-family: 'Nunito', sans-serif;
-    font-weight: 500;
-}
+  margin-left: 40px; }
+
+input[type="text"]:hover {
+  background-color: #47c9c9; }
+
+input {
+  background-color: #d6d6d6;
+  transition: all 0.5; }
+
+input[type="text"]:focus {
+  background-color: #8181fd; }
