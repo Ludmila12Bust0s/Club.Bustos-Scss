@@ -1,45 +1,46 @@
 $colorPrimario: black;
+$mainFont: 'Nunito', sans-serif;
 body{
     background-color: #CCF3EE;
  
 h2 {
     font-size: 2REM;
-    font-family: 'Nunito', sans-serif;
+    font-family: $mainFont;
     color:rgb(68, 68, 177);
 }
 .texto {
-    font-family: 'Nunito', sans-serif;
+    font-family: $mainFont;
     font-weight: 500;
     background-color: aliceblue;
     color: $colorPrimario;
 }
 
 .descripcion{
-    font-family: 'Nunito', sans-serif;
+    font-family: $mainFont;
     font-weight: 500;
 }
 h3 {
-    font-family: 'Nunito', sans-serif;
+    font-family: $mainFont;
     font-weight: 600;
 }
 #actividadesEspeciales {
-    font-family: 'Nunito', sans-serif;
+    font-family: $mainFont;
     font-weight: 600;
     color: $colorPrimario;
 }
 #contactanos {
-    font-family: 'Nunito', sans-serif;
+    font-family: $mainFont;
     font-weight: 600;
     background-color: aliceblue;
     color: $colorPrimario;
 }
 .infoACompletar{
-    font-family: 'Nunito', sans-serif;
+    font-family: $mainFont;
     font-weight: 600;
     color: $colorPrimario;
 }
 .bottom{
-    font-family: 'Nunito', sans-serif;
+    font-family: $mainFont;
     font-weight: 600;
   }
 }
