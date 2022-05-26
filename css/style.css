@@ -1,64 +1,91 @@
+a {
+  color: var(--bs-dark); }
+  a:hover {
+    text-decoration: underline; }
+
 body {
   background-color: #CCF3EE; }
   body h2 {
+    border: double;
+    border-color: black;
+    text-align: center;
     font-size: 2REM;
-    font-family: 'Nunito', sans-serif;
+    font-family: "Nunito", sans-serif;
     color: #4444b1; }
   body .texto {
-    font-family: 'Nunito', sans-serif;
+    font-family: "Nunito", sans-serif;
     font-weight: 500;
     background-color: aliceblue;
-    color: black; }
-  body .descripcion {
-    font-family: 'Nunito', sans-serif;
-    font-weight: 500; }
+    color: black;
+    border: dotted;
+    border-width: 1px;
+    border-color: #156d96;
+    display: inline-block;
+    transition: transform .6s; }
+    body .texto:hover {
+      transform: scale(1.1); }
+  body .video {
+    text-align: center; }
   body h3 {
-    font-family: 'Nunito', sans-serif;
-    font-weight: 600; }
-  body #actividadesEspeciales {
-    font-family: 'Nunito', sans-serif;
+    font-family: "Nunito", sans-serif;
     font-weight: 600;
-    color: black; }
+    text-align: center;
+    padding: 10px;
+    border: 40px;
+    transition: transform .5s; }
+    body h3:hover {
+      transform: scale(1.1); }
+  body .descripcion {
+    font-family: "Nunito", sans-serif;
+    font-weight: 500; }
+  body .imagenActividades {
+    filter: blur(3px);
+    transition: filter .2s; }
+    body .imagenActividades:hover {
+      filter: blur(0px); }
+  body #actividadesEspeciales {
+    color: black;
+    font-family: "Nunito", sans-serif;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+    border: 20px;
+    padding: 20px;
+    border: 10px; }
+  body #calendar {
+    text-align: center; }
+  body #contacto {
+    display: grid;
+    grid-template-columns: 300px 0px; }
   body #contactanos {
-    font-family: 'Nunito', sans-serif;
+    text-align: justify;
+    display: inline-block;
+    margin-top: -20px;
+    margin-right: 40px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    font-family: "Nunito", sans-serif;
     font-weight: 600;
     background-color: aliceblue;
     color: black; }
   body .infoACompletar {
-    font-family: 'Nunito', sans-serif;
+    display: inline-block;
+    margin-top: -20px;
+    margin-right: 40px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    font-family: "Nunito", sans-serif;
     font-weight: 600;
     color: black; }
+  body input[type="text"] {
+    background-color: #d6d6d6; }
+    body input[type="text"]:hover {
+      background-color: #47c9c9; }
+    body input[type="text"]focus {
+      background-color: #8181fd; }
   body .bottom {
-    font-family: 'Nunito', sans-serif;
+    font-family: "Nunito", sans-serif;
     font-weight: 600; }
-
-footer {
-  font-family: 'Nunito', sans-serif;
-  font-weight: 500; }
-
-h2 {
-  border: double;
-  border-color: black;
-  text-align: center; }
-
-a {
-  color: var(--bs-dark); }
-
-a:hover {
-  text-decoration: underline; }
-
-.texto {
-  border: dotted;
-  border-width: 1px;
-  border-color: #156d96;
-  display: inline-block;
-  transition: transform .6s; }
-
-.texto:hover {
-  transform: scale(1.1); }
-
-.video {
-  text-align: center; }
 
 .tracking-in-contract {
   -webkit-animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.61, 0.355, 1) both;
@@ -84,59 +111,6 @@ a:hover {
     letter-spacing: normal;
     opacity: 1; } }
 
-h3 {
-  text-align: center;
-  padding: 10px;
-  border: 40px;
-  transition: transform .5s; }
-
-h3:hover {
-  transform: scale(1.1); }
-
-.imagenActividades {
-  filter: blur(3px);
-  transition: filter .2s; }
-
-.imagenActividades:hover {
-  filter: blur(0px); }
-
-#actividadesEspeciales {
-  font-family: 'Nunito', sans-serif;
-  font-weight: 600;
-  color: black;
-  text-align: center;
-  border: 20px;
-  padding: 20px;
-  border: 10px; }
-
-#calendar {
-  text-align: center; }
-
-#contacto {
-  display: grid;
-  grid-template-columns: 300px 0px; }
-
-#contactanos {
-  text-align: justify;
-  display: inline-block;
-  margin-top: -20px;
-  margin-right: 40px;
-  margin-bottom: 30px;
-  margin-left: 40px; }
-
-.infoACompletar {
-  display: inline-block;
-  margin-top: -20px;
-  margin-right: 40px;
-  margin-bottom: 30px;
-  margin-left: 40px; }
-
-input[type="text"]:hover {
-  background-color: #47c9c9; }
-
-input {
-  background-color: #d6d6d6;
-  transition: all 0.5; }
-
-input[type="text"]:focus {
-  background-color: #8181fd; }
+footer {
+  font-family: "Nunito", sans-serif;
+  font-weight: 500; }
