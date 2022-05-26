@@ -9,16 +9,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,200&family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;1,200&family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito:ital,wght@0,200;1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<>
+
 <section class="container">
     <!--HEADER-->
 <header>
     <div class="px-4 py-5 my-5 text-center">
         <img class="d-block mx-auto mb-4" src="../imagenes/logo club.png" alt="" width="500" height="110">
     </div>
-    <nav class="navbar sticky-top navbar-expand-lg  navbar-light"  style="background-color: #688ca7;">
+    <nav class="navbar sticky-top navbar-expand-lg  navbar-light animate__animated animate__slow animate__zoomIn"  style="background-color: #688ca7;">
         <a class="navbar-brand" href="../index.html">
         <img src="../imagenes/logo.png" alt="" width="60" height="60" class="d-inline-block align-text-top">
         Sobre Nosotros
@@ -31,15 +32,15 @@
 </header>
     <!--MAIN-->
 <main class="main_container">
-    <h2>Actividades especiales</h2>
-    <div id="calendar">
+    <h2 class="animate__animated animate__slow animate__fadeInLeft"">Actividades especiales</h2>
+    <div class="calendar animate__animated animate__slow animate__fadeInLeft">
 <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FArgentina%2FBuenos_Aires&src=cGxwNW84YjJxZ2Y5M3F1cjYxbXEya2E0aWNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%23009688" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 </div>
 <div>
     <ol id="actividadesEspeciales">
-        <li>Torneo Arroyito</li>
-        <li>Torneo Kempes</li>
-        <li>Aguas abietas Boca de rio</li>
+        <li><p class="tracking-in-contract"> Torneo Arroyito </p></li>
+        <li><p class="tracking-in-contract"> Torneo Kempes </p></li>
+        <li><p class="tracking-in-contract"> Aguas abietas Boca de rio </p></li>
 </ol>
 </div>
 </main>
@@ -57,5 +58,6 @@
     </ul>
 </footer>
 </section>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>
