@@ -1,27 +1,8 @@
 {
-  "name": "club-bustos-con-boostrap-copia",
+  "name": "club-bustos-con_boostrap_scssii",
   "version": "1.0.0",
-  "description": "",
+  "description": "En este trabajo se desarrollo una pagina web del club de natacion Sol y Lago, aplicando lenguaje HTML, transformaciones, animaciones, css y scss,",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build-css": "node-sass --include-path scss scss/style.scss css/style.css",
-    "watch-css": "nodemon -e scss -x \"npm run build-css\""
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Ludmila12Bust0s/Club.Bustos-Scss.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Ludmila12Bust0s/Club.Bustos-Scss/issues"
-  },
-  "homepage": "https://github.com/Ludmila12Bust0s/Club.Bustos-Scss#readme",
-  "devDependencies": {
-    "node-sass": "^7.0.1",
-    "nodemon": "^2.0.16"
-  },
   "dependencies": {
     "abbrev": "^1.1.1",
     "agent-base": "^6.0.2",
@@ -304,5 +285,24 @@
     "yallist": "^4.0.0",
     "yargs": "^17.5.1",
     "yargs-parser": "^20.2.9"
-  }
+  },
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.16"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/style.scss css/main.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ludmila12Bust0s/Club.Bustos-Scss.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ludmila12Bust0s/Club.Bustos-Scss/issues"
+  },
+  "homepage": "https://github.com/Ludmila12Bust0s/Club.Bustos-Scss#readme"
 }
