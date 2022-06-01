@@ -82,6 +82,7 @@ color: $colorPrimario;
 }
 .infoACompletar{
  @extend #contactanos;
+ background-color: rgb(142, 198, 202);
 }
 
 input[type="text"]{
