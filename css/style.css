@@ -76,7 +76,8 @@ body {
     margin-left: 40px;
     font-family: "Nunito", sans-serif;
     font-weight: 600;
-    color: black; }
+    color: black; 
+    background-color: rgb(142, 198, 202);}
   body input[type="text"] {
     background-color: #d6d6d6; }
     body input[type="text"]:hover {
