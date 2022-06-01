@@ -1,5 +1,8 @@
+$estilos: (
+  fWeight: 600,
+);
 footer{
     font-family: $mainFont;
-    font-weight: 500;
+    font-weight: map-get($map: $estilos, $key: fWeight);
 }
 

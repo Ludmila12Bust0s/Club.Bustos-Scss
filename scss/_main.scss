@@ -3,14 +3,14 @@ body{
 h2 {
     border: double;
     border-color:black;
-    text-align: center;
-    font-size: 2REM;
+    text-align: map-get($map: $estilos, $key: centro);
+    font-size: map-get($map: $estilos, $key: tFuente);
     font-family: $mainFont;
     color:rgb(68, 68, 177);
 }
 .texto {
     font-family: $mainFont;
-    font-weight: 500;
+    font-weight: map-get($map: $estilos, $key: fWeight);
     background-color: aliceblue;
     color: $colorPrimario;
     border: dotted;
@@ -24,12 +24,12 @@ h2 {
 }
 
 .video{
-  text-align: center;
+  text-align: map-get($map: $estilos, $key: center0);
 }
 h3 {
     font-family: $mainFont;
-    font-weight: 600;
-    text-align: center;
+    font-weight: map-get($map: $estilos, $key: fWeight);
+    text-align: map-get($map: $estilos, $key: center0);
     padding: 10px;
     border: 40px;
     transition: transform .5s;
@@ -40,7 +40,7 @@ h3 {
 
 .descripcion{
     font-family: $mainFont;
-    font-weight: 500;
+    font-weight: map-get($map: $estilos, $key: fWeight);
 }
 .imagenActividades{
   filter: blur(3px);
@@ -53,29 +53,29 @@ h3 {
 #actividadesEspeciales {
 color: $colorPrimario;
   font-family: $mainFont;
-  font-weight: 600;
+  font-weight: map-get($map: $estilos, $key: fWeight);
   color:black;
-  text-align: center;
+  text-align: map-get($map: $estilos, $key: centero);
   border: 20px;
   padding: 20px;
   border: 10px;
 }
 #calendar {
-  text-align: center;
+  text-align: map-get($map: $estilos, $key: centero);
 }
 #contacto{
   display: grid;
   grid-template-columns: 300px 0px;
 }
 #contactanos {
-  text-align: justify;
+  text-align: map-get($map: $estilos, $key: justificado);
   display: inline-block;
   margin-top: -20px;
   margin-right: 40px;
   margin-bottom: 30px;
   margin-left: 40px;
   font-family: $mainFont;
-  font-weight: 600;
+  font-weight: map-get($map: $estilos, $key: fWeight);
   background-color: aliceblue;
   color: $colorPrimario;
   
@@ -95,6 +95,6 @@ input[type="text"]{
 }
 .bottom{
     font-family: $mainFont;
-    font-weight: 600;
+    font-weight: map-get($map: $estilos, $key: fWeight);
   }
 }
