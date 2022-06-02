@@ -1,8 +1,19 @@
 $estilos: (
   fWeight: 600,
 );
-footer{
+@import "./responsive";
+.footer{
     font-family: $mainFont;
     font-weight: map-get($map: $estilos, $key: fWeight);
+    display: flex;
+    @include responsive(pc) {
+      flex-direction: row;
+    }
+    @include responsive(tablet) {
+      flex-direction: row;
+    }
+    @include responsive(mobile) {
+      flex-direction: column;
+    }
 }
 

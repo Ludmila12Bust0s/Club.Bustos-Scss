@@ -100,6 +100,16 @@ body {
     letter-spacing: normal;
     opacity: 1; } }
 
-footer {
+.footer {
   font-family: "Nunito", sans-serif;
-  font-weight: 600; }
+  font-weight: 600;
+  display: flex; }
+  @media (max-width: 1400px) {
+    .footer {
+      flex-direction: row; } }
+  @media (max-width: 768px) {
+    .footer {
+      flex-direction: row; } }
+  @media (max-width: 425px) {
+    .footer {
+      flex-direction: column; } }
