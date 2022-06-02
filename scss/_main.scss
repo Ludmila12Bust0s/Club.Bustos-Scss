@@ -1,21 +1,33 @@
 body{
     background-color: #CCF3EE;
-h2 {
-    border: double;
-    border-color:black;
+h1 {
     text-align: map-get($map: $estilos, $key: centro);
     font-size: map-get($map: $estilos, $key: tFuente);
     font-family: $mainFont;
-    color:rgb(68, 68, 177);
+    color:#0000FF;
+    padding: 10px;
+    border: 40px;
+    border: double;
+    border-color:black;
+    transition: transform .5s;
+    &:hover{
+        transform: scale(1.1);
+      }
+}
+
+h2 {
+  @extend h1;
+  border: 0px;
+  color:#03038C;
 }
 .texto {
     font-family: $mainFont;
     font-weight: map-get($map: $estilos, $key: fWeight);
-    background-color: aliceblue;
+    background-color: #8CC0DE;
     color: $colorPrimario;
     border: dotted;
     border-width: 1px; 
-    border-color: rgb(21, 109, 150);
+    border-color: rgb(0, 0, 0);
     display: inline-block;
     transition: transform .6s;
     &:hover{
@@ -24,20 +36,8 @@ h2 {
 }
 
 .video{
-  text-align: map-get($map: $estilos, $key: center0);
+  text-align: map-get($map: $estilos, $key: centero);
 }
-h3 {
-    font-family: $mainFont;
-    font-weight: map-get($map: $estilos, $key: fWeight);
-    text-align: map-get($map: $estilos, $key: center0);
-    padding: 10px;
-    border: 40px;
-    transition: transform .5s;
-    &:hover{
-        transform: scale(1.1);
-      }
-}
-
 .descripcion{
     font-family: $mainFont;
     font-weight: map-get($map: $estilos, $key: fWeight);

@@ -7,32 +7,32 @@ a {
 
 body {
   background-color: #CCF3EE; }
-  body h2 {
-    border: double;
-    border-color: black;
+  body h1, body h2 {
     text-align: center;
     font-size: 2REM;
     font-family: "Nunito", sans-serif;
-    color: #4444b1; }
+    color: #0000FF;
+    padding: 10px;
+    border: 40px;
+    border: double;
+    border-color: black;
+    transition: transform .5s; }
+    body h1:hover, body h2:hover {
+      transform: scale(1.1); }
+  body h2 {
+    border: 0px;
+    color: #03038C; }
   body .texto {
     font-family: "Nunito", sans-serif;
     font-weight: 600;
-    background-color: aliceblue;
+    background-color: #8CC0DE;
     color: black;
     border: dotted;
     border-width: 1px;
-    border-color: #156d96;
+    border-color: black;
     display: inline-block;
     transition: transform .6s; }
     body .texto:hover {
-      transform: scale(1.1); }
-  body h3 {
-    font-family: "Nunito", sans-serif;
-    font-weight: 600;
-    padding: 10px;
-    border: 40px;
-    transition: transform .5s; }
-    body h3:hover {
       transform: scale(1.1); }
   body .descripcion {
     font-family: "Nunito", sans-serif;
