@@ -1,20 +1,16 @@
 body{
-    background-color: #CCF3EE;
-h1 {
+    background-color: #91c2bb;
+    h1 {
     text-align: map-get($map: $estilos, $key: centro);
     font-size: map-get($map: $estilos, $key: tFuente);
     font-family: $mainFont;
-    color:#0000FF;
+    color:#000000;
     padding: 10px;
-    border: 40px;
-    border: double;
-    border-color:black;
-    transition: transform .5s;
+   transition: transform .6s;
     &:hover{
         transform: scale(1.1);
       }
 }
-
 h2 {
   @extend h1;
   border: 0px;
@@ -23,12 +19,13 @@ h2 {
 .texto {
     font-family: $mainFont;
     font-weight: map-get($map: $estilos, $key: fWeight);
-    background-color: #8CC0DE;
-    color: $colorPrimario;
+    background-color:#292929 ;
+    color: white;
     border: dotted;
     border-width: 1px; 
-    border-color: rgb(0, 0, 0);
-    display: inline-block;
+    border-color: rgb(226, 226, 226);
+    padding: 10px;
+    display: block;
     transition: transform .6s;
     &:hover{
         transform: scale(1.1);
@@ -43,10 +40,13 @@ h2 {
     font-weight: map-get($map: $estilos, $key: fWeight);
 }
 .imagenActividades{
-  filter: blur(3px);
-  transition: filter .2s;
+  display: block;
+  margin: auto;
+  padding: 25px;
+  width: 400px;
+  transition: transform .5s;
   &:hover{
-    filter: blur(0px);
+    transform: translate(10px);
   }
 }
 
@@ -69,11 +69,7 @@ color: $colorPrimario;
 }
 #contactanos {
   text-align: map-get($map: $estilos, $key: justificado);
-  display: inline-block;
-  margin-top: -20px;
-  margin-right: 40px;
-  margin-bottom: 30px;
-  margin-left: 40px;
+  display: block;
   font-family: $mainFont;
   font-weight: map-get($map: $estilos, $key: fWeight);
   background-color: aliceblue;
@@ -82,15 +78,15 @@ color: $colorPrimario;
 }
 .infoACompletar{
  @extend #contactanos;
- background-color: rgb(142, 198, 202);
+ background-color: rgb(167, 249, 255);
 }
 input[type="text"]{
   background-color: rgb(214, 214, 214);
   &:hover{
-    background-color: rgb(71, 201, 201);
+    background-color: rgb(92, 252, 252);
   }
   &focus{
-    background-color: rgb(129, 129, 253);
+    background-color: rgb(92, 92, 255);
   }
 }
 .bottom{

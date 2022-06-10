@@ -6,17 +6,14 @@ a {
     text-decoration: underline; }
 
 body {
-  background-color: #CCF3EE; }
+  background-color: #91c2bb; }
   body h1, body h2 {
     text-align: center;
     font-size: 2REM;
     font-family: "Nunito", sans-serif;
-    color: #0000FF;
+    color: #000000;
     padding: 10px;
-    border: 40px;
-    border: double;
-    border-color: black;
-    transition: transform .5s; }
+    transition: transform .6s; }
     body h1:hover, body h2:hover {
       transform: scale(1.1); }
   body h2 {
@@ -25,12 +22,13 @@ body {
   body .texto {
     font-family: "Nunito", sans-serif;
     font-weight: 600;
-    background-color: #8CC0DE;
-    color: black;
+    background-color: #292929;
+    color: white;
     border: dotted;
     border-width: 1px;
-    border-color: black;
-    display: inline-block;
+    border-color: #e2e2e2;
+    padding: 10px;
+    display: block;
     transition: transform .6s; }
     body .texto:hover {
       transform: scale(1.1); }
@@ -38,10 +36,13 @@ body {
     font-family: "Nunito", sans-serif;
     font-weight: 600; }
   body .imagenActividades {
-    filter: blur(3px);
-    transition: filter .2s; }
+    display: block;
+    margin: auto;
+    padding: 25px;
+    width: 400px;
+    transition: transform .5s; }
     body .imagenActividades:hover {
-      filter: blur(0px); }
+      transform: translate(10px); }
   body #actividadesEspeciales {
     color: black;
     font-family: "Nunito", sans-serif;
@@ -55,23 +56,19 @@ body {
     grid-template-columns: 300px 0px; }
   body #contactanos, body .infoACompletar {
     text-align: justify;
-    display: inline-block;
-    margin-top: -20px;
-    margin-right: 40px;
-    margin-bottom: 30px;
-    margin-left: 40px;
+    display: block;
     font-family: "Nunito", sans-serif;
     font-weight: 600;
     background-color: aliceblue;
     color: black; }
   body .infoACompletar {
-    background-color: #8ec6ca; }
+    background-color: #a7f9ff; }
   body input[type="text"] {
     background-color: #d6d6d6; }
     body input[type="text"]:hover {
-      background-color: #47c9c9; }
+      background-color: #5cfcfc; }
     body input[type="text"]focus {
-      background-color: #8181fd; }
+      background-color: #5c5cff; }
   body .bottom {
     font-family: "Nunito", sans-serif;
     font-weight: 600; }
@@ -113,3 +110,8 @@ body {
   @media (max-width: 425px) {
     .footer {
       flex-direction: column; } }
+
+.footer {
+  background-color: white;
+  width: 100%;
+  padding: 20px; }
